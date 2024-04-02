@@ -1,0 +1,361 @@
+/**
+ * @name Code
+ * @author TheTerrarian03
+ * @version 1.0.0
+ * @description Code-themed Discord Theme
+*/
+
+/* Based on Discord version Stable 280244 (e5278fb) as of 03/31/2024 */
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+
+:root {
+    /* "Global" font */
+    --font-primary: "Otonokizaka Mono II", mono;
+
+    /* Variables for colors */
+    --custcol-purple-deep: #11111b;     /* Darkest Purple, from "element.background" */
+    --custcol-purple-muted: #181825;    /* Second Darkest Purple, from "surface.background" */
+    --custcol-purple: #1e1e2e;          /* Main Purple, from "background" */
+    --custcol-purple-light: #cba6f7;    /* Lightest purple, from the color of an active line */
+    --custcol-pink-accent: #f38ba8;     /* Pink accent color, from _______ */
+    --custcol-grey-separator: #313244;  /* Grey separator color, from "border" */
+
+    /* Setting general font size and background color where possible */
+    font-size: 12.75px !important;
+    /* background-color: var(--custcol-purple-deep); */
+}
+
+
+/* ------------------------ */
+/* Mac Window button region */
+/* ------------------------ */
+.typeMacOS_cacc59 {
+    background-color: var(--custcol-purple-deep);
+}
+
+/* ----------- */
+/* Server Pane */
+/* ----------- */
+.scroller_de945b {
+    background-color: var(--custcol-purple-deep);
+    /* border-right: 1px solid var(--custcol-grey-separator); */
+}
+
+/* Seperator between DMs and Servers */
+.guildSeparator__75928 {
+    background-color: #f38ba8;
+}
+
+/* ------------- */
+/* Account Panel */
+/* ------------- */
+.container_debb33
+{
+    background-color: #11111b !important;
+}
+
+.hovered__5a165,  /* Status top name */
+.default__74311   /* Status bottom status/user id */
+{
+    font-size: 10.5px;
+}
+
+/* --------------------- */
+/* General - Search Bars */
+/* --------------------- */
+
+/* Search bar for "Find or start a conversation" box in friends sidepanel */
+.searchBarComponent__8f95f {
+    font-size: 10.5px !important;
+}
+
+/* ------------------------ */
+/* General - Search Results */
+/* ------------------------ */
+
+/* Results Header Background, behind "# Results [New] [Old] [Relevant] */
+.searchHeader__4d70e
+{
+    background-color: #11111b;
+}
+
+.text-md-normal__6e567,  /* results text */
+.item__48dda,  /* {New, Old, Relevant} buttons */
+.channelNameText__56ed8,  /* Name of channel (i.e. @ Curtussy) */
+.DraftEditor-editorContainer  /* search box */
+{
+    font-size: 12.25px;
+}
+
+.nonText_fbd88d,  /* Previously searched text without a filter */
+.filter__851fb,   /* The filter, for example the "from:" in "from: user" */
+.answer__9ff92,   /* The "answer" to a filter, for example the "user" in "from: user" */
+.option__91497    /* next option after clicking on a filter, like the names in "from", "mentions", channels names for "in" or the types in "has" */
+{
+    font-size: 13px;
+}
+
+/* Results Background */
+.scroller__5f036 {
+    background-color: #181825;
+}
+
+/* Background of result items */
+.searchResult__00093 {
+    background-color: #1e1e2e;
+}
+
+
+
+
+
+
+/* --------------------- */
+/* General - User Popout */
+/* --------------------- */
+
+.userPopoutInner_e90432 {
+    background: #181825;
+}
+
+.userPopoutOverlayBackground_bf6444 {
+    background-color: #11111b;
+}
+
+.userPopoutOuter__3884e {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cba6f7;
+}
+
+/* ------------------------------------------------------------ */
+/* General - Widely used Labels or Containers font size changes */
+/* ------------------------------------------------------------ */
+
+.text-md-semibold__8664f,  /* Text used for Active Now Friend Name and Server Name at top */
+.text-sm-normal__95a78     /* Text used for friend Active Now Status and Account Name on bottom */
+{
+    font-size: 12.25px;
+}
+
+/* Activity text, like "Playing [...]" or "[Status here]" */
+.activityText__31c22,
+{
+    font-size: 10px;
+}
+
+/* Popup text above status on member I think? */
+.tooltipContent_adb6d5,
+.item__183e8 {
+    font-size: 12.25px;
+}
+
+/* Text for channel name descriptions */
+.topic__16ae3 {
+    font-size: 12.25px !important;
+}
+
+/* Top bar for Friends and Server */
+.themed_b152d4 {
+    background-color: #11111b !important;
+}
+
+/* Reply Bar Background */
+.replyBar_ed6afc {
+        background-color: #181825;
+}
+
+/* Messages scroller for DMs, Server Channels, and Threads */
+.scroller_e412fe {
+    background-color: #1e1e2e;
+}
+
+/* Message Box Panel */
+.form_d8a4a1 {
+    background-color: #1e1e2e;
+}
+
+/* ------------------------- */
+/* General - Emoji Reactions */
+/* ------------------------- */
+
+/* Background of reactions including your reactions */
+.reaction__4a43f {
+    background-color: #11111b !important;
+}
+
+/* Change border around your reactions */
+.reactionMe__0fffc {
+    border-color: #cba6f7 !important;
+}
+
+/* ------------------------------ */
+/* General - GIF & Emoji Selector */
+/* ------------------------------ */
+
+/* ----------------- */
+/* General - Popouts */
+/* ----------------- */
+
+/* --------------------------------- */
+/* General - Discord Icon Background */
+/* --------------------------------- */
+
+/* ------------------------- */
+/* General - Voice Connected */
+/* ------------------------- */
+
+/* general background */
+.container_e1958d {
+    background: var(--custcol-purple-muted);
+}
+
+/* button colors */
+
+/* ------------------------- */
+/* General - Date Separators */
+/* ------------------------- */
+
+/* ------------------ */
+/* General Background */
+/* ------------------ */
+
+/* ------------------------------ */
+/* General - Gradient Adjustments */
+/* ------------------------------ */
+
+/* subtitle bar gradient adjustment */
+.theme-dark .children_cde9af:after {
+    background: linear-gradient(to right,rgba(17,17,27,0),rgba(17,17,27,100));
+}
+
+/* Chat Message gradient adjustment */
+.theme-dark .form_d8a4a1:before {
+    background: linear-gradient(to bottom,rgba(30,30,46,0),rgba(30,30,46,100));
+}
+
+/* Thread gradient adjustment */
+.theme-dark .children_cde9af:after {
+    background: linear-gradient(to right,rgba(17,17,27,0),rgba(17,17,27,100));
+}
+
+/* ------------ */
+/* DM - Sidebar */
+/* ------------ */
+
+/* Background panel for Search Bar  */
+.searchBar__621ec {
+    background-color: #11111b !important;
+}
+
+/* Sidebar Background */
+.scroller__89969 {
+    background-color: #181825 !important;
+}
+
+/* Friend Status */
+.activityText__56d3b {
+    font-size: 10.5px;
+}
+
+ /* {Friends, Nitro, Shop} and DM/Groupchat buttons */
+.name_f842e4 {
+    font-size: 12.25px;
+}
+
+/* ------------ */
+/* DM - Top Bar */
+/* ------------ */
+
+/* Subtitle container friend nicknames */
+.nicknames__12efb {
+    font-size: 12.5px;
+}
+
+/* ------------- */
+/* DM - Messages */
+/* ------------- */
+
+/* ---------------- */
+/* DM - Member List */
+/* ---------------- */
+
+/* Name of member */
+.username__4a6f7 {
+    font-size: 12.25px;
+}
+
+/* Background */
+.members__573eb {
+    background-color: #181825;
+}
+
+/* ----------------- */
+/* Friends - Top Bar */
+/* ----------------- */
+
+/* ------------------- */
+/* Friends - Main Page */
+/* ------------------- */
+
+.username__267df,  /* Online friends name */
+.text_bd79a3       /* Online friends Status */
+{
+    font-size: 12.5px;
+}
+
+
+
+/* People column */
+.peopleColumn__0c784 {
+    background-color: #1e1e2e;
+}
+
+/* -------------------- */
+/* Friends - Active Now */
+/* -------------------- */
+
+/* --------------------- */
+/* Server - Channel List */
+/* --------------------- */
+
+/* Background */
+.scroller__1f498 {
+    background-color: #181825 !important;
+}
+
+/* Server channel names */
+.name__4eb92 {
+    font-size: 12.25px;
+}
+
+/* Server name dropdown */
+.container_f41675 {
+    background-color: #11111b;
+}
+
+/* ----------------- */
+/* Server - Messages */
+/* ----------------- */
+
+/* ---------------- */
+/* Server - Top Bar */
+/* ---------------- */
+
+/* -------------------- */
+/* Server - Member List */
+/* -------------------- */
+
+/* Background of member item, also works for DM memebers */
+.member_aa4760 {
+    background-color: #181825;
+}
+
+/* ------------------------- */
+/* Settings - Sidebar Region */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Settings - Content Region */
+/* ------------------------- */
