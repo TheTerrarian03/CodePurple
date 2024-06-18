@@ -51,53 +51,8 @@
     font-size: 12.25px;
 }
 
-/* Top bar */
-
-/* Groupchat Member List */
-
-/* Name of member */
-
-/* ----- Color Changes ----- */
-/* Darkest Color - #11111b */
-/* .typeMacOS_cacc59, */
-/* .macDragRegion__919b5, */
-/* .base_c0676e, */
-/* .container_debb33, */
-/* .searchHeader__4d70e, */
-
-/* .container__26baa, */
-/* .title_d4ba1a, */
-/* .container_f41675, */
-/* .reaction__4a43f, */
-/* .scroller_de945b  */
-{
-    background-color: #11111b !important;
-}
-
-/* Second-darkest Color - #181825 */
-/* .scroller__89969, */
-/* .scroller__1f498, */
-/* .scroller__5f036, */
-/* .replyBar_ed6afc, */
-/* .members__573eb, */
-/* .member_aa4760, */
-/* .container_f79ab4, */
-/* .scroller__7c25e,
-.containerDefault_ae2ea4 */
-{
-    background-color: #181825 !important;
-}
-
-.member_aa4760:hover {
-    background-color: #2a2b3c !important;
-}
-
-/* Lightest Color - #1e1e2e */
-/* .peopleColumn__0c784, */
-/* .scroller_e412fe, */
-/* .form_d8a4a1, */
+/* ???? */
 .clipContainer_ab9cf6
-/* .searchResult__00093 */
 {
     background-color: #1e1e2e;
 }
